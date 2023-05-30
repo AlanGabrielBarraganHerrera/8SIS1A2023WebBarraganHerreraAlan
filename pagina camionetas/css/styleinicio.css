@@ -1,0 +1,127 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos del header y navegación */
+  
+  header {
+    background-color: #ec0505;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de las secciones */
+  
+  .section {
+    padding: 50px;
+    text-align: center;
+    animation: fade-in 1s ease;
+  }
+  
+  .section h1 {
+    font-size: 36px;
+  }
+  
+  .section p {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del footer */
+  
+  footer {
+    background-color: #ee0303;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  .rotate {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate:hover {
+    transform: rotate(360deg);
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Estilos del botón de la sección Home */
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #071cd7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
+  .button-bounce {
+    animation: button-bounce 2s infinite;
+  }
+  
+  @keyframes button-bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animación de fade-in para las secciones */
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de la sección home */
+#home {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('fondo.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+}
+
+/* Estilos de la sección casos de éxito */
+#casos-exito {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.caso-exito {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.caso-exito img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.caso-exito h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.caso-exito p {
+  font-size: 16px;
+}
+
+/* Estilos de la sección contacto */
+#contacto {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contacto h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#contacto p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#contacto button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.redes-sociales {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.contacto-info p {
+  margin-bottom: 10px;
+}
+
+.aviso-privacidad a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
