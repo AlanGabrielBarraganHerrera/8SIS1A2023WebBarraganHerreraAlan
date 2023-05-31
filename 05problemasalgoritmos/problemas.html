@@ -17,8 +17,9 @@
     <label >Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero
       ganara después de un mes si el banco paga a razón de 2% mensual.</label>
     <label for="capital">Capital:</label>
-    <input type="number" id="capital" required>
+    <input type="number" id="capital" required min="0" max="500000000">
     <button type="button" onclick="calcularGanancia()">Calcular Ganancia</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="ganancia"></p>
 
     <h2>Problema 2</h2>
@@ -31,6 +32,7 @@
     <label for="sueldo-base">Sueldo Base:</label>
     <input type="number" id="sueldo-base" required>
     <button type="button" onclick="calcularComisiones()">Calcular Comisiones</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="comisiones"></p>
     <p id="total"></p>
 
@@ -40,6 +42,7 @@
     <label for="total-compra">Total Compra:</label>
     <input type="number" id="total-compra" required>
     <button type="button" onclick="calcularDescuento()">Calcular Descuento</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="total-pagar"></p>
 
     <h2>Problema 4</h2>
@@ -62,6 +65,7 @@
     <label for="calif-trabajo">Calificación Trabajo Final:</label>
     <input type="number" id="calif-trabajo" required>
     <button type="button" onclick="calcularCalificacionFinal()">Calcular Calificación Final</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="calificacion-final"></p>
 
     <h2>Problema 5</h2>
@@ -72,6 +76,7 @@
     <label for="total-hombres">Total Hombres:</label>
     <input type="number" id="total-hombres" required>
     <button type="button" onclick="calcularPorcentaje()">Calcular Porcentaje</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="porcentaje-hombres"></p>
     <p id="porcentaje-mujeres"></p>
 
@@ -80,9 +85,13 @@
     <label for="anio-nacimiento">Año de Nacimiento:</label>
     <input type="number" id="anio-nacimiento" required>
     <button type="button" onclick="calcularEdad()">Calcular Edad</button>
+    <button type="button" onclick="resetForm()">Borrar</button>
     <p id="edad"></p>
   </form>
-  <a href="../index.html">Regresar al menu Principal</a>
+
+  <footer>
+    <a href="../index.html">Regresar al menu Principal</a>
+  </footer>
 </body>
 
 </html>
